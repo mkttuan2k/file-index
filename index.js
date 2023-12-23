@@ -35,5 +35,5 @@ app.get("*", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Ứng dụng ví dụ trên cổng ${port}`);
+  console.log(`Example app on port ${port}`);
 });
